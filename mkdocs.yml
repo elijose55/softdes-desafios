@@ -1,0 +1,9 @@
+site_name: softdes-desafios
+nav:
+    - Home: index.md
+    - Guia Alunos: users.md
+    - Guia Professores: teachers.md
+    - Guia de Desenvolvimento: dev.md
+    - Documentação da API: api.md
+
+theme: readthedocs
