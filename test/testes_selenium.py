@@ -53,8 +53,8 @@ elif platform.system == 'Darwin':
 else:
 	driver_firefox = webdriver.Firefox(executable_path=absolute_path + '/test/resources/GeckoDriver/geckodriver-v0.26.0-linux64/geckodriver')
 
-username = "admin"
-password = "admin"
+username = "pedro"
+password = "pedro"
 driver_firefox.get("http://" + username + ":" + password + "@localhost")
 assert "localhost" in driver_firefox.current_url
 
